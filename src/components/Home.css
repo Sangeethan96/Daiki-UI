@@ -1,0 +1,47 @@
+.home {
+    text-align: center;
+    padding: 2rem 1rem;
+  }
+  
+  .home-image {
+    max-width: 100%;
+    height: auto;
+  }
+
+  .social-icons {
+    margin: 1rem 0;
+  }
+  
+  .social-icons a {
+    margin: 0 10px;
+    color: #333;
+    text-decoration: none;
+  }
+  
+  .social-icons a:hover {
+    color: #0073e6; /* Change to the desired hover color */
+  }
+  
+  h1 {
+    font-size: 2.5rem;
+    margin-top: 1rem;
+  }
+
+  .video-gallery {
+    display: flex;
+    justify-content: space-between; /* Adjust spacing between videos */
+    flex-wrap: wrap; /* Ensures videos wrap if the screen is too small */
+    margin-top: 2rem;
+  }
+  
+  .video {
+    flex: 1 1 30%;
+    margin: 10px; /* Add margin to create space between videos */
+    box-sizing: border-box; /* Ensure padding and border are included in the element's total width and height */
+  }
+  
+  p {
+    text-align: justify;
+    font-size: 1.2rem;
+    margin-top: 1rem;
+  }

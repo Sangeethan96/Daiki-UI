@@ -1,0 +1,166 @@
+/* src/components/AboutUs.css */
+.about-us {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+  }
+  
+  .hero {
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+    padding: 4rem 1rem;
+  }
+  
+  .hero-content {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .hero h1 {
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+  }
+  
+  .hero-stats {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-bottom: 2rem;
+  }
+  
+  .stat {
+    flex: 1 1 30%;
+    margin: 0.5rem;
+    text-align: center;
+  }
+  
+  .stat-icon {
+    margin-bottom: 0.5rem;
+    color: #ff6600; /* Adjust this color to your brand color */
+  }
+  
+  .stat span {
+    display: block;
+    font-size: 2rem;
+    font-weight: bold;
+    color: #ff6600; /* Adjust this color to your brand color */
+  }
+  
+  .hero-description {
+    font-size: 1rem;
+  }
+  
+  .video-section {
+    text-align: center;
+    padding: 4rem 1rem;
+  }
+  
+  .video-wrapper {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .values-section {
+    text-align: center;
+    padding: 4rem 1rem;
+    background-color: #f9f9f9;
+  }
+  
+  .values-cards {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 1rem;
+  }
+  
+  .card {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 1.5rem;
+    flex: 1 1 calc(25% - 1rem); /* Adjusts to fit 4 cards in a row */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between; /* Ensure even spacing */
+    min-height: 200px; /* Ensure equal height */
+    box-sizing: border-box; /* Ensure padding and border are included in height */
+  }
+  
+  .card-icon {
+    margin-bottom: 1rem;
+    color: #ff6600; /* Adjust this color to your brand color */
+  }
+  
+  .card h3 {
+    margin-top: 0;
+    color: #ff6600; /* Adjust this color to your brand color */
+  }
+  
+  .card p {
+    font-size: 1rem;
+    margin-bottom: 0; /* Remove bottom margin */
+  }
+  
+  .team-section, .culture-section {
+    padding: 4rem 1rem;
+    background-color: #f9f9f9;
+  }
+  
+  .team-content, .culture-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .team-text, .culture-text {
+    flex: 1;
+    margin-right: 2rem;
+  }
+  
+  .team-image, .culture-image {
+    flex: 1;
+  }
+  
+  .team-image img, .culture-image img {
+    width: 100%;
+    height: auto;
+    object-fit: cover; /* Ensures the image covers the container without stretching */
+    border-radius: 8px; /* Optional: Adds rounded corners to the image */
+  }
+  
+  .btn {
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+    text-decoration: none;
+    color: #fff;
+    cursor: pointer;
+    font-size: 1rem;
+  }
+  
+  .btn-primary {
+    background-color: #007bff;
+    border: none;
+  }
+  
+  .btn-secondary {
+    background-color: #6c757d;
+    border: none;
+  }
+  
+  .btn:hover {
+    opacity: 0.8;
+  }
+  
+  p{
+    text-align: justify;
+    font-size: 1.2rem;
+    margin-top: 1rem;
+
+  }
+  
