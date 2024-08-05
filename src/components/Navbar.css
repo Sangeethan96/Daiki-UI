@@ -5,6 +5,8 @@
     padding: 1rem 2rem;
     background-color: #fff;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    
+    
   }
   
   .navbar-logo a {
@@ -34,4 +36,31 @@
   
   .navbar-contact:hover {
     background-color: #f0f0f0;
+  }
+
+  .language-switcher {
+    margin-left: 1rem;
+  }
+  
+  .language-button {
+    display: flex;
+    align-items: center;
+    border: 1px solid #ddd;
+    padding: 0.3rem 0.5rem;
+    border-radius: 4px;
+    background: none;
+    cursor: pointer;
+    font-size: 1rem;
+  }
+  
+  .language-icon {
+    margin-right: 0.5rem;
+    color: #333;
+  }
+  
+  .language-button select {
+    border: none;
+    background: none;
+    font-size: 1rem;
+    cursor: pointer;
   }

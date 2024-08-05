@@ -1,0 +1,102 @@
+/* src/components/Team.css */
+.team-page {
+    padding: 2rem;
+    font-family: Arial, sans-serif;
+  }
+  
+  .team-header {
+    text-align: center;
+  }
+  
+  .team-header h1 {
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .team-header p {
+    font-size: 1.2rem;
+    color: #666;
+  }
+  
+  .team-image {
+    margin-top: 1rem;
+  }
+  
+  .team-image img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .team-search {
+    background-color: #000;
+    color: #fff;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  
+  .team-search-group {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+  }
+  
+  .team-search-group label {
+    font-size: 1rem;
+  }
+  
+  .team-search-group select,
+  .team-search-group input {
+    padding: 0.5rem;
+    font-size: 1rem;
+  }
+  
+  .team-search-group button {
+    background-color: #ff6600;
+    border: none;
+    padding: 0.5rem;
+    cursor: pointer;
+  }
+  
+  .team-search-group button svg {
+    fill: #fff;
+  }
+  
+  .team-list {
+    margin-top: 2rem;
+  }
+  
+  .team-list h2 {
+    text-align: center;
+    margin-bottom: 1rem;
+  }
+  
+  .team-members {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  
+  .team-member {
+    text-align: center;
+    margin: 1rem;
+    flex: 1 1 20%;
+  }
+  
+  .team-member img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 0.5rem;
+  }
+  
+  .team-member h3 {
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .team-member p {
+    font-size: 1rem;
+    color: #666;
+  }
+  

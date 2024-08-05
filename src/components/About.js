@@ -2,6 +2,7 @@ import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faUsers, faBuilding, faGlobe, faExchangeAlt, faShieldAlt, faHandHoldingHeart, faBalanceScale, faRocket, faUsersCog } from '@fortawesome/free-solid-svg-icons';
 import './About.css';
+import { Link } from 'react-router-dom';
 
 function About() {
   return (
@@ -91,7 +92,9 @@ function About() {
           <div className="team-text">
             <h2>Meet Our Global Team</h2>
             <p>At Daiki, titles don’t matter because we believe that with our collective mind power we can do great things - and we have! We embrace what each team member has to offer and work as one team to support the growth of the company. We have over 900 employees worldwide with offices in Australia, Brazil, Germany, India, Malaysia, Sri Lanka, Singapore, the UAE, the UK, and the US.</p>
+            <Link to="/team">
             <button className="btn btn-primary">Meet Team</button>
+            </Link>
           </div>
           <div className="team-image">
             <img src={require('../assets/Images/daikiteam.png')} alt="Global Team" />

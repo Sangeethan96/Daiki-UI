@@ -147,6 +147,22 @@ function Contact() {
         </div>
         <button type="submit">Submit</button>
       </form>
+      <div className="contact-info">
+        <h2>Daiki Lanka (Pvt) Ltd. (Daiki Group Japan)</h2>
+        <p>24/9, 1st Lane, Gothami Road, Borella, Colombo 08, Sri Lanka</p>
+        <p>011 266 9050 / 076 655 1128 / 077 771 7215 / 076 858 3316</p>
+      </div>
+      <div className="map-container">
+        <iframe
+          title="company-location"
+           src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3162.9201487031883!2d-122.08424938469268!3d37.42206597982409!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ae25933fe30fdfb%3A0x8db397ca65ebcfe4!2sDaiki%20Lanka%20(Pvt)%20Ltd.%20Head%20Office!5e0!3m2!1sen!2sus!4v1614695090461!5m2!1sen!2sus"
+          width="600"
+          height="450"
+          style={{ border: 0 }}
+          allowFullScreen=""
+          loading="lazy"
+        ></iframe>
+      </div>
     </div>
   );
 }
