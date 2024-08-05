@@ -3,13 +3,16 @@ import { Link } from 'react-router-dom';
 import './Navbar.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGlobe } from '@fortawesome/free-solid-svg-icons';
-
+// src={require('../assets/Images/daikiteam.png')} 
 
 const NavBar = () => (
   <header className="navbar">
     <div className="navbar-logo">
-      <Link to="/">Daiki</Link>
+    <Link to="/">
+        <img src={require('../assets/Images/logo.png')} alt="Daiki" className="logo-image" />
+      </Link>
     </div>
+    
     <nav className="navbar-links">
       <Link to="/products">Products</Link>
       <Link to="/solutions">Solutions</Link>

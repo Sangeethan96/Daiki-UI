@@ -53,6 +53,7 @@
   .video-section {
     text-align: center;
     padding: 4rem 1rem;
+    background-color: aquamarine;
   }
   
   .video-wrapper {
@@ -63,7 +64,7 @@
   .values-section {
     text-align: center;
     padding: 4rem 1rem;
-    background-color: #f9f9f9;
+    background-color: #6c757d;
   }
   
   .values-cards {
@@ -104,9 +105,14 @@
     margin-bottom: 0; /* Remove bottom margin */
   }
   
-  .team-section, .culture-section {
+  .team-section{
     padding: 4rem 1rem;
-    background-color: #f9f9f9;
+    background-color:#007bff;
+  }
+
+ .culture-section {
+    padding: 4rem 1rem;
+    background-color:burlywood;
   }
   
   .team-content, .culture-content {

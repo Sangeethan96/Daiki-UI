@@ -46,9 +46,12 @@ function Contact() {
   };
 
   return (
+    
     <div className="contact">
+      
       <h1>Contact Us</h1>
       <p>Please fill out the form, and we'll get in touch shortly.</p>
+      <div className='form'>
       <form onSubmit={handleSubmit} className="contact-form">
         <div className="form-group">
           <label>First Name *</label>
@@ -147,11 +150,13 @@ function Contact() {
         </div>
         <button type="submit">Submit</button>
       </form>
+      </div>
       <div className="contact-info">
         <h2>Daiki Lanka (Pvt) Ltd. (Daiki Group Japan)</h2>
         <p>24/9, 1st Lane, Gothami Road, Borella, Colombo 08, Sri Lanka</p>
         <p>011 266 9050 / 076 655 1128 / 077 771 7215 / 076 858 3316</p>
       </div>
+      
       <div className="map-container">
         <iframe
           title="company-location"

@@ -130,6 +130,7 @@ function Home() {
       </motion.div>
       <br />
       <motion.div variants={itemVariants}>
+        <div className='engineer'>
         <h2>Daiki Engineers</h2>
         <p>
           We create opportunities for Engineers who willing to work in Japan as Daiki Engineers. People who have B.Sc, degree from recognized university can easily be Daiki Engineer in Japan.
@@ -140,6 +141,8 @@ function Home() {
           2. NAT 2 (We conduct classes)<br />
           3. (18-28) Age Limit
         </p>
+        <img src={require('../assets/Images/Services/3.png')} alt="Students" className="home-image animated-image" />
+        </div>
       </motion.div>
       <motion.div className="video-gallery" variants={containerVariants}>
         <motion.div className="video" variants={itemVariants}>
@@ -169,6 +172,17 @@ function Home() {
             width="560"
             height="315"
             src="https://www.youtube.com/embed/LC8PB87itbc"
+            title="YouTube video player"
+            frameBorder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowFullScreen
+          ></iframe>
+        </motion.div>
+        <motion.div className="video" variants={itemVariants}>
+          <iframe
+            width="560"
+            height="315"
+            src="https://www.youtube.com/embed/5J412cXeQ5g"
             title="YouTube video player"
             frameBorder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"

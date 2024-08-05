@@ -1,8 +1,20 @@
 .home {
-    text-align: center;
-    padding: 2rem 1rem;
-    font-family: Arial, sans-serif;
-  }
+  position: relative;
+  width: 100%;
+  min-height: 100vh; /* Ensures the home page takes at least the full height of the viewport */
+  background-image: url('../assets/Images/home.png'); /* Update this to the correct path of your background image */
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed; /* Keeps the background image fixed while scrolling */
+  /*color: #fff;  Ensures text is readable on a dark background */
+}
+
+.colored-section {
+  padding: 2rem;
+  background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background for better text readability */
+  margin-bottom: 1rem;
+  border-radius: 10px;
+}
   
   .home-image {
     max-width: 100%;
@@ -113,3 +125,9 @@
     padding: 0.5rem 1rem;
     
   }
+
+  .engineer{
+    background-color: antiquewhite;
+  }
+
+  

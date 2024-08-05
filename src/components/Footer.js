@@ -44,13 +44,13 @@ function Footer() {
           <button className="newsletter-button">Sign Up For Our Newsletter</button>
           </div>
           <div className="social-icons">
-            <a href="https://www.facebook.com" target="_blank" rel="noopener noreferrer">
+            <a href="https://www.facebook.com/daikiaxis.lk/?locale=br_FR" target="_blank" rel="noopener noreferrer">
               <FontAwesomeIcon icon={faFacebook} size="2x" />
             </a>
             <a href="https://www.twitter.com" target="_blank" rel="noopener noreferrer">
               <FontAwesomeIcon icon={faTwitter} size="2x" />
             </a>
-            <a href="https://www.linkedin.com" target="_blank" rel="noopener noreferrer">
+            <a href="https://www.linkedin.com/company/daiki-ai/" target="_blank" rel="noopener noreferrer">
               <FontAwesomeIcon icon={faLinkedin} size="2x" />
             </a>
             <a href="https://www.youtube.com" target="_blank" rel="noopener noreferrer">
